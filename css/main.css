@@ -112,4 +112,25 @@ q {
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Italianno", cursive;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  padding: 10px;
+  margin: 1.5rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -1,4 +1,5 @@
 @use '../01-settings/' as *;
+@use "sass:color";
 
 .btn {
 
@@ -17,13 +18,13 @@
     &--red {
         background-color: $color-red;
         &:hover {
-            background-color: darken($color-red, 10%);
+            background-color: color.adjust($color-red, $lightness: -10%);;
         }
     }
     &--green {
         background-color: $color-green;
         &:hover {
-            background-color: darken($color-green, 10%);
+            background-color: color.adjust($color-green, $lightness: -10%);
         }
     }
 

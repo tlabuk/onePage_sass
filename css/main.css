@@ -170,7 +170,7 @@ a {
   border: 1px solid #eff0f3;
 }
 .btn--outline:hover {
-  background-color: rgba(255, 255, 255, .3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 .btn--circle {
   border-radius: 50%;

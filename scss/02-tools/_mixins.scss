@@ -1,0 +1,35 @@
+@use '../01-settings/' as *;
+
+@mixin medium {
+
+    @media screen and (min-width: $bp-md) {
+
+        @content;
+
+    }
+}
+
+@mixin large {
+
+    @media screen and (min-width: $bp-lg) {
+
+        @content;
+
+    }
+}
+
+// TEST
+
+// h1 {
+//     font-size: $font-base * 3;
+//     color: $color-red;
+
+//     @include medium{
+//         font-size: $font-base * 4;
+//         color: $color-green;
+//     }
+//     @include large{
+//         font-size: $font-base * 6;
+//         color: blue;
+//     }
+// }

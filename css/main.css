@@ -157,13 +157,13 @@ a {
   background-color: #74030e;
 }
 .btn--red:hover {
-  background-color: #420208;
+  background-color: #68030d;
 }
 .btn--green {
   background-color: #132601;
 }
 .btn--green:hover {
-  background-color: black;
+  background-color: #112201;
 }
 .btn--outline {
   background-color: transparent;

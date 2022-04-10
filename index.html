@@ -15,6 +15,15 @@
     <header class="site-header">
         <!-- According to BEM - element  -->
         <div class="site-header__blackout blackout"></div>
+        <nav>
+            <!-- mixed BEM - block again - ul is an element for site-header and a block for li items -->
+            <ul class="site-header__nav nav">
+                <li class=nav__item><a class="nav__link" href="#start">Start</a></li>
+                <li class=nav__item><a class="nav__link" href="#menu">Menu</a></li>
+                <li class=nav__item><a class="nav__link" href="#localization">Lokalizacja</a></li>
+                <li class=nav__item><a class="nav__link" href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
         <h1 class="site-header__h1 heading--h1">Restauracja Dolce Vita</h1>
         <a class="site-header__button btn btn--red btn--circle" href="#menu">Menu</a>
     </header>
